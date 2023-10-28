@@ -1,0 +1,21 @@
+.h1{
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+    width: 45%;
+    height: 25%;
+    padding: 10px 10px 10px 10px;
+    background: crimson;
+    margin: 20px 10px 10px 10px;
+    border-width: 5px 5px 5px 5px;
+    border-style: double;
+    position: relative;
+    top: 20%;
+    right: 10px;
+    bottom: 70px;
+    left: 350px;
+}

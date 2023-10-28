@@ -1,0 +1,37 @@
+
+ASIDE
+{
+    position: absolute;
+    width: 25%;
+    height: 530px;
+    top: 289px;
+    right: auto;
+    bottom: 100px;
+    left: 75%;
+    background-color: burlywood;
+}
+
+
+.separar{
+    margin: 20px 5px 15px 40px;
+}
+
+.separar2{
+    margin: 5px 5px 15px 40px;
+}
+
+#divAside{
+    border-width: 5px 5px 5px 5px;
+    border-style: double;
+    border-color: blue;
+    margin: 20px 2px 2px 2px;
+}
+#color{
+    color: red;
+}
+article
+{
+    position: relative;
+    left: 25px;
+}
+

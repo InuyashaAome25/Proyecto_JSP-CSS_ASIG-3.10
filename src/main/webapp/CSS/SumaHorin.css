@@ -1,0 +1,59 @@
+
+aside
+{
+    position: absolute;
+    width: 25%;
+    height: 425px;
+    top: 299px;
+    right: auto;
+    bottom: 100px;
+    left: 75%;
+    background-color: burlywood;
+    float: right;
+}
+
+#color-text{
+    color: red;
+}
+
+.mov1{
+    width: 330px;
+    height: 100px;
+    left: 25px;
+}
+
+.mov2{
+    width: 290px;
+    height: 460px;
+    right: 400px;
+}
+#divAsideR{
+    border-width: 5px 5px 5px 5px;
+    border-style: double;
+    border-color: blue;
+    margin: 20px 2px 2px 2px;
+}
+h4
+{
+    text-align: center;
+}
+.columna{
+    width: 20%;
+    height: 150px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.columna2{
+    text-align: left;
+    width: 24%;
+    position: absolute;
+    left: 300px;
+    bottom: 8%;
+}
+.columna3{
+    width: 15%;
+    position: absolute;
+    left: 690px;
+    bottom: 16%;
+}

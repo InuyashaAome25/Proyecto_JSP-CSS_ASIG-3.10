@@ -1,0 +1,48 @@
+#estilo{
+    width: 25%;
+    height: 35px;
+    font: oblique bold 25px "Times New Roman", serif;
+    text-indent: 15px;
+    text-align: left;
+    color: crimson;
+    background-color: lightblue;
+    margin: 25px 5px 20px 15px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+fieldset{
+    width: 83%;
+    margin: 5% 10% 15px 10%;
+    padding: 15px 15px 15px 10px;
+    border-width: 3px 3px 3px 3px;
+    border-color: darkorchid;
+}
+form{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    margin: 5px 5px 5px 15px;
+}
+div{
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    bottom: 3%;
+    left: 40%;
+}
+legend{
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.tamaño-img{
+    width: 55x;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    margin: 5px 10px 5px 10px;
+}

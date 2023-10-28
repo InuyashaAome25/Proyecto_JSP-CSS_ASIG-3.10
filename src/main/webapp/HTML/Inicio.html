@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asignación 2.6</title>
+    <link rel="stylesheet" href="../CSS/Plantilla.css">
+    <link rel="stylesheet" href="../CSS/EstiloPrin.css">
+</head>
+<body>
+    <header>
+        <iMG class="logo" src="../IMG/logo.png">
+        <h1 class="tituloP">Operaciones básicas de aritmética</h1>
+    </header>
+    <nav>
+        <h1 class="tituloNav">¿Quieres conocer la teoria?</h1>
+        <a class="nav" href="Inicio.html">Inicio</a>
+        <a class="nav" href="SUMA.html">Suma</a>
+        <a class="nav" href="RESTA.html">Resta</a>
+        <a class="nav" href="MULTIPLICACION.html">Multiplicación</a>
+        <a class="nav" href="DIVISION.html">Division</a>
+    </nav>
+    <main>
+        <form action="../JSP/Operaciones.jsp" method="post" accept-charset="utf-8">
+            <fieldset >
+                <legend>¿Quieres realizar una operación aritmética?</legend>
+                <h1 id="estilo">Ingrese dos números</h1>
+                Valor 1:
+                <input type="text"
+                       name="oper1"
+                       size="20"
+                       maxlength="20"
+                       autofocus
+                       required
+                       placeholder="Operando1" title="No lo omita porque se asumirá valor 0">
+                Valor 2:
+                <input type="text"
+                       name="oper2"
+                       size="20"
+                       maxlength="20"
+                       autofocus
+                       required
+                       placeholder="operando2"
+                       title="No lo omita porque se a asumirá valor 0 ">
+                <br><br>
+                <input type="image"
+                       name="imagefieldsum"
+                       src="../IMG/suma.jpg" alt="SUMA" class="tamaño-img">
+                <input type="image"
+                       name="imagefieldres"
+                       src="../IMG/resta.jpg"  alt="RESTA" class="tamaño-img">
+                <input type="image"
+                       name="imagefieldmul"
+                       src="../IMG/multiplicacion.png"  alt="MULTIPLICACIÓN" class="tamaño-img">
+                <input type="image"
+                       name="imagefelddiv"
+                       src="../IMG/division.png"  alt="DIVISION" class="tamaño-img">
+                <fieldset>
+                    <legend>Resultado</legend>
+                    <input type="text" id="resultado" readonly>
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h4>Cesar Castillo 8-976-234</h4>
+            <h4>Michael Perez 8-1007-1782</h4>
+            <h4>Victor Rodriguez 9-761-2415</h4>
+        </div>
+    </footer>
+</body>
+</html>
